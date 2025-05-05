@@ -23,7 +23,7 @@
 - Explore differences between SQL dialects (PostgreSQL vs SQL Server)
 - Understand best practices for building maintainable applications using clean architecture and MVVM (Model-View-ViewModel)
 - Learn and apply WPF concepts including data binding and command-based UI interaction
-
+- Implement the Repository Pattern for database architecture.
 ---
 
 ## 🛠 Tech Stack (Planned)
