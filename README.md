@@ -32,8 +32,9 @@
 - WPF (UI Layer)
 - ADO.NET or Entity Framework Core (Data Access Layer)
 - PostgreSQL, SQL Server, and SQLite (for database experimentation)
-- Serilog (for structured logging).
+- Serilog (for structured logging)
 - Docker (for development database environments only)
+- Eventual REST API for hosted server
 
 ---
 
