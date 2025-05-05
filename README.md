@@ -37,12 +37,6 @@
 
 ---
 
-## 📦 Setup (Coming Soon)
-
-Instructions for setting up the development environment, running the application, and switching between database backends will be added as the project progresses.
-
----
-
 ## 📌 Notes
 
 - Custom user-defined media entries will be stored locally to avoid moderation issues with inappropriate content
