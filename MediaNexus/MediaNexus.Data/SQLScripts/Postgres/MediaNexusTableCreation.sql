@@ -1,9 +1,9 @@
 CREATE TABLE media_types(
     media_type_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    name TEXT UNIQUE NOT NULL
+    media_type TEXT UNIQUE NOT NULL
 );
 
-INSERT INTO media_types (name) VALUES 
+INSERT INTO media_types (media_type)VALUES 
                                    ('Manga'),
                                    ('Manhwa'),
                                    ('Manhua'),
@@ -15,20 +15,20 @@ INSERT INTO media_types (name) VALUES
 
 CREATE TABLE units(
     unit_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    name VARCHAR(20) UNIQUE NOT NULL 
+    media_unit VARCHAR(20) UNIQUE NOT NULL 
 );
 
-INSERT INTO units (name) VALUES 
+INSERT INTO units (media_unit) VALUES 
                              ('Chapters'),
                              ('Episodes'),
                              ('Duration');
 
 CREATE TABLE media_status (
     status_id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    name VARCHAR(20) UNIQUE NOT NULL
+    media_status VARCHAR(20) UNIQUE NOT NULL
 );
 
-INSERT INTO media_status (name) VALUES
+INSERT INTO media_status (media_status) VALUES
                                     ('Planned'),
                                     ('Started'),
                                     ('Completed'),
