@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaNexus.Core", "MediaNex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaNexus.Data", "MediaNexus.Data\MediaNexus.Data.csproj", "{5C0B0974-7A31-4FE4-89FA-5B04A529BA27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaNexus.Testing", "MediaNexus.Testing\MediaNexus.Testing.csproj", "{4186FCE6-E4EF-4937-9A12-FA8BB5870165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaNexus.Infrastructure", "MediaNexus.Infrastructure\MediaNexus.Infrastructure.csproj", "{A78FCAB2-BFDE-4C1B-A627-3662224FB0FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{5C0B0974-7A31-4FE4-89FA-5B04A529BA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C0B0974-7A31-4FE4-89FA-5B04A529BA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C0B0974-7A31-4FE4-89FA-5B04A529BA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4186FCE6-E4EF-4937-9A12-FA8BB5870165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4186FCE6-E4EF-4937-9A12-FA8BB5870165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4186FCE6-E4EF-4937-9A12-FA8BB5870165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4186FCE6-E4EF-4937-9A12-FA8BB5870165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78FCAB2-BFDE-4C1B-A627-3662224FB0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78FCAB2-BFDE-4C1B-A627-3662224FB0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78FCAB2-BFDE-4C1B-A627-3662224FB0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78FCAB2-BFDE-4C1B-A627-3662224FB0FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
